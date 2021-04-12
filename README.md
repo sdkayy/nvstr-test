@@ -26,7 +26,7 @@ I have created a class to provide you data like a server might.
 
 ### Methods:
 
-    import { ServerMock } from 'securitiesservermock/ServerMock';
+    import { ServerMock } from 'utils/ServerMock';
 
     ServerMock.getAllSecurities // returns a Promise that resolves to an array of all securities (stocks) supported in the mock server
 

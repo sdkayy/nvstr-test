@@ -1,6 +1,8 @@
-import './App.css';
+import React from 'react';
 import NavBar from "components/nav/NavBar";
 import PortfolioSummary from "components/portfolio/PortfolioSummary";
+
+import './App.css';
 
 function App() {
   return (
