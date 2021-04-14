@@ -8,6 +8,8 @@ You can choose to code this project in React or React Native, whichever you feel
 
 We expect you to spend roughly 2-4 hours total on the project.
 
+### Do not send a PR or push to this branch, make your own repo
+
 Component Requirements:
 - Component should have a Portfolio Value display, and a Day Change display side by side
 - Component should have a Market Overview display that can render any 2 stocks side by side
