@@ -1,3 +1,69 @@
 .portfolio-summary-container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 5px;
+  padding: 12px;
+}
 
+.portfolio-summary-loading-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91px;
+  background: white;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.data-section {
+  display: flex;
+  align-items: center;
+}
+
+.extra-tickers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 6px;
+}
+
+.ticker-group {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-width: 8px;
+  border-style: solid;
+}
+
+.arrow-small {
+  width: 0;
+  height: 0;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.up {
+  border-top-width: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: green;
+}
+
+.down {
+  border-bottom-width: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: red;
+}
+
+.right {
+  border-right-width: 0;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: gray;
 }
